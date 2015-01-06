@@ -7,7 +7,7 @@
 ### 動画を取得するツール [get-nicovideo.sh]
 ダウンロードしたい動画番号を指定して、出力先ディレクトリに出力します。
  出力ファイル名は、&lt;動画番号&gt;.mp4 となります。
-`$ get-nicovideo.sh -u &lt;UserID&gt; -p &lt;Password&gt; &lt;Movie No&gt;[,&lt;Movie No&gt;...]`
+`$ get-nicovideo.sh -u <UserID> -p <Password> <Movie No>[,<Movie No>...]`
 
 * -u &lt;UserID&gt; : ニコニコ動画のユーザID
 * -p &lt;Password&gt; : ニコニコ動画のユーザIDに対応するパスワード
@@ -17,7 +17,7 @@
 マイリスト番号からダウンロードしたい動画番号を指定して、出力先ディレクトリに出力します。
  出力ファイル名は、&lt;動画番号&gt;.mp4 となります。
 
-`$ get_nicomylist.sh &lt;MyList No&gt;[,&lt;MyList No&gt;...]`
+`$ get_nicomylist.sh <MyList No>[,<MyList No>...]`
 * &lt;MyList No&gt; : 動画番号を取得するマイリスト番号。カンマで区切ることで複数指定可能  標準入力も可
 
 
